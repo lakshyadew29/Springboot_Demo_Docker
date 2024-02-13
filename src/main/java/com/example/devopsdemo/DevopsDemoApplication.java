@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DevopsDemoApplication {
 
-	@GetMapping("/start")
+	@GetMapping("/home")
 	public String ar () {
-		return "Started the application";
+		return "This Is Home Page for Nagarro Assignment Docker And K8S";
 	}
 
 	public static void main(String[] args) {
